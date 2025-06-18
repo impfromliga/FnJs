@@ -1,3 +1,3 @@
 export const hello=()=>{
-  console.log('greatly thanx for Vsevolod');
+  console.log('greatly thanx for Vsevolod, not yet');
 }
