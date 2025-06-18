@@ -1,0 +1,26 @@
+{
+  "lock": false,
+  "name": "@impfromliga/fnjs",
+  "version": "0.1.0",
+  "license": "MIT",
+  "workflows": {
+    "UpdateSemverDeployJsr": {
+      "versionsFilePath": "./versions.ts"
+    }
+  },
+  "tasks": {
+  },
+  "imports": {
+
+  },
+  "exports": {
+    ".": "./source/mod.ts"
+  },
+  "publish": {
+    "include": [
+      "./source/**",
+      "./README.md",
+      "./LICENSE"
+    ]
+  }
+}
